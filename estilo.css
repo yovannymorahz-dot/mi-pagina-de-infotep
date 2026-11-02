@@ -1,0 +1,97 @@
+/*estructura general de la pagina web*/
+body{
+background-color:lightblue;    
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*contenido de la pagina principal*/
+.contenido{
+margin-left: 200px;
+padding:20px
+
+}
+/* caracteristicas de la barra lateral*/
+.barra-lateral{
+width:auto;
+height: 100%;
+background-color:rgb(44, 81, 140);
+position:fixed;
+padding: 20px;
+box-sizing:border-box;
+top:0;
+left:0;
+}
+
+/*titulo del menu lateral*/
+.barra-lateral-h2
+{
+    color:rgb(239, 240, 246);
+    font-size: 40px;
+    font-weight: bold;
+}
+/*  botones del menu lateral*/
+.botom3
+{
+
+display:block;
+background-color:rgb(45, 110, 171);
+margin-bottom: 15px;
+padding: 10px 20px;
+box-shadow:inset 2px 2px 10px #e4dfdf80;
+border-radius: 15px;
+border:none;
+font-weight: bold;
+cursor:pointer;
+color:white;
+}
+
+/*efecto de hover*/
+.botom3:hover
+{
+    transition:all 0.3s ease-in-out;
+     transform:translateY(-4px);
+     background-color:rgb(0, 238, 255);
+     color:rgb(0, 0, 0);
+}
+
+/*control de imagenes*/
+.imagen-barra{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.imagen-menu{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 150px;
+}
+
+
+
+
+
+/* estilo para la pagina de contacto */
+.contactos{
+   display:flex;
+   flex-direction:column;
+   text-align:center;
+   align-items:center;
+}
+
+
+
+
+/* estilo para la pagina de registro */
+.login-container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
